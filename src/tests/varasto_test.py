@@ -61,7 +61,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_uudella_varastolla_negatiivinen_saldo(self):
         negatiivinen_saldo = Varasto(10, -5)
-        self.assertAlmostEqual(negatiivinen_saldo.saldo, 0)
+        self.assertAlmostEqual(negatiivinen_saldo.saldo, 5)
 
     def test_str_palauttaa_oikein(self):
         self.varasto.lisaa_varastoon(5)
