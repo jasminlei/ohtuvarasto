@@ -1,5 +1,7 @@
 from varasto import Varasto
 
+# kommentti
+
 
 def main():
     mehua = Varasto(100.0)
