@@ -3,7 +3,7 @@ from varasto import Varasto
 # kommentti
 
 
-def main():
+def funktioMain():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
@@ -57,4 +57,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    funktioMain()
