@@ -40,5 +40,7 @@ class Varasto:
 
         return maara
 
+    # tässä on pitkä yli viisitoista merkkia pitkä kommentti niin että pylint-sääntöjä rikotaan
+
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
